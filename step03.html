@@ -1,0 +1,241 @@
+<html>
+
+<head>
+<title>Step 03: Making Your Picture Blue</title>
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+body {
+	background-color: #d0d0d0;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body vlink="#0000FF" link="#0000FF" alink="#0000FF">
+<font face="Times New Roman">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2" height="1">
+  <tr>
+<font face="Engravers MT">
+
+    <td align="center" height="1" colspan="2" bgcolor="#000080">
+    <span style="letter-spacing: 2pt; font-weight: 700">
+    <font size="4" color="#FFFFFF" face="Engravers MT">PART I: YOUR FACE</font></span></td>
+    </font>  </tr>
+<font face="Engravers MT" size="1" color="#000080"></font>
+  <tr>
+    <td width="70%" align="center" height="1">
+    <b><font size="6">Step 03: Making 
+    Your Picture Blue</font></b></td>
+    <td width="30%" align="center" height="1">
+<font face="Times New Roman">
+
+    <map name="FPMap1">
+        
+    <area href="step01.html" shape="rect" coords="46,8,61,25" title="Some Basic Facts About Photoshop">
+    <area href="step02.html" shape="rect" coords="65,8,80,25" title="Getting Started on Your Face">
+    <area href="step04.html" shape="rect" coords="104,8,121,24" title="Setting Up the Layers">
+    <area href="step05.html" shape="rect" coords="124,8,141,24" title="Shape Inking">
+    <area href="step06.html" shape="rect" coords="146,8,161,24" title="Freehand Inking">
+    <area href="step07.html" shape="rect" coords="166,8,181,24" title="Adding Color">
+    <area href="step08.html" shape="rect" coords="186,8,201,24" title="Completing Your Face">
+    <area href="step09.html" shape="rect" coords="204,8,220,25" title="Getting Started on the Space Scene">
+    <area href="step10.html" shape="rect" coords="224,8,242,24" title="Star Field">
+    <area href="step11.html" shape="rect" coords="45,25,61,40" title="Nebula">
+    <area href="step12.html" shape="rect" coords="65,25,80,40" title="Sun">
+    <area href="step13.html" shape="rect" coords="85,25,103,40" title="Planet One">
+    <area href="step14.html" shape="rect" coords="105,25,121,40" title="Planet Two">
+    <area href="step15.html" shape="rect" coords="125,25,141,40" title="Comet">
+    <area href="step16.html" shape="rect" coords="145,25,161,40" title="Asteroids">
+    <area href="step17.html" shape="rect" coords="166,24,182,40" title="Lens Flare">
+    <area href="step18.html" shape="rect" coords="186,24,202,40" title="Preparing the Spaceship">
+    <area href="step19.html" shape="rect" coords="206,25,222,39" title="You're the Captain">
+    <area href="step20.html" shape="rect" coords="225,25,241,40" title="Flying Through Space">
+    </map>
+    <img border="0" src="03/steps03.jpg" usemap="#FPMap1" align="center" width="246" height="43"></td>
+  </tr>
+</table>
+</center>
+<p>
+<img src="03/301.jpg" hspace="2" align="right" border="1" width="185" height="406">Before 
+we go any further, let's take a quick second to learn a little about how 
+computers think about color.</p>
+<p>
+While there are hundreds of millions of different colors in nature, the human 
+eye can only distinguish a few million (anywhere between 3 and 10 million 
+depending on the person) because our eyes compress visible light into three 
+primary colors: red, green, and blue. So, when we designed movie projectors, televisions, computers, 
+monitors, etc. we only worried about reproducing the colors we can see, and not 
+about reproducing colors in their true nature.</p>
+<p>There are two basic ways of reproducing color:</p>
+<ol type="A">
+  <li>The first is used when a light source, such as a computer monitor or TV, 
+  is projecting the color. Photopea calls this the <span class="style1"><b>RGB</b> color system because it 
+  uses various shades of Red, Green, and Blue</span> to make every other color. When 
+  all three are present, as in the top graphic to the right, we get white. When none 
+  of the three are present, we get black. This color system also goes by the 
+  name of <b>Additive Colors</b>, as the more color you put in the brighter the resulting color is.</li>
+  <li>The second is used by printers, inks, and paint and is known as <strong>CMYK</strong>. We start with a surface, like a sheet of paper or 
+  the side of a house, and 
+  as we add various colors onto it the result will get darker and darker. Here, our 
+  primary colors are Cyan 
+(the absence of red), magenta (the absence of green), and yellow (the absence of blue). 
+  These three mixed together will create a very dark color, but not always true 
+  black, so there is also a separate black color as well. Yes, the &quot;K&quot; stands for black, because &quot;B&quot; already stands for blue. If you use this 
+method, Photopea will be thinking of your colors in these four channels, but of course it will 
+still be translating them to RGB to be displayed on your monitor. This color system also goes by the name of 
+  <span class="style1"><b>Subtractive Colors</b>, as the more color you put in the darker the resulting 
+  color</span> is (think about pouring all different colors in a paint can, what 
+  happens as you add more color?).</li>
+</ol>
+<p><b><font color="#FF0000">Keep in mind that RGB color is best for viewing graphics on a computer monitor while CMYK color 
+is best for creating printed graphics.</font></b></p>
+<p>All of this is leading us to the fact that Photopea works with RGB color 
+(well, Photopea actually works with sRGB color, but the s just stands for 
+Standard), which is great because we will be viewing our image on a computer and 
+not printing it.</p>
+<p>Okay, back to our picture. We want to change the color of the picture so that 
+it has a blue tint so that when 
+we begin creating the line work (which we will do in black) we will not be confused by the 
+colors in the picture.</p>
+<ol>
+  <li>
+  <p style="margin-top: 0; margin-bottom: 0">If your <b>
+  Face</b> image 
+  is not open, open it in Photopea now; this is the image I will be using in this 
+  tutorial...<br>
+<img src="03/302.jpg" hspace="0" width="224" height="279"><br>
+  I know...he's a stud</li>
+</ol>
+<p>
+To give our image a nice blue tint, we need to work with colors within RGB. We first 
+need to get up the Levels editor.</p>
+<ol start="2">
+  <li>Click <b>Image</b> on the Menu Bar...<br>
+<img src="03/314.jpg" hspace="0" width="632" height="88"></li>
+  <li>Point at <b>Adjustments </b>then<b> </b>click <b>Levels...</b><br>
+<img src="03/304.jpg" hspace="0"><br>
+  The <b>Levels</b> editor window (pictured below) opens...<br>
+<img src="03/305.jpg" hspace="0"></li>
+</ol>
+<p>Before we make any changes, let's look at how the Levels 
+editor functions. The <b>Channel</b> selector 
+at the top tells whether you are working with red, green, blue, or all of them 
+at once (named 
+RGB, the default selection). Photopea keeps 
+separate level settings for each of these four channels. The  <font color="#FF0000">histogram 
+  (that black mountain looking thing under the Channel selector</font><span class="style1">) 
+tells you how common shades of the selected channel are, ranging from 0 (dark) 
+on the left, to 255 (bright) on the right</span>. Since we are working with a full-color photograph, the graph should show 
+a large amount of black, as in the screenshot above (since you are working with 
+a different image your graph will not look exactly like mine). If our image had only a few 
+colors, or was black and white, we would see a much smaller amount of black in 
+the graph.</p>
+<p>The main controls in this panel are the three boxes under the graph (see 
+Image 1 below) which control the Input Level, 
+and the two boxes under the gradient below them (see Image 2 below) which 
+control the Output Levels. The input arrows define where black, white, and 50% 
+gray are on the scale. The output arrows define how white the brightest white can be, and how dark the darkest 
+dark can be.</p>
+<table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber3">
+  <tr>
+    <td width="50%" align="center">
+    <img border="0" src="03/306.jpg"><br>
+    Image 1</td>
+    <td width="50%" align="center">  
+    <img border="0" src="03/307.jpg"><br>
+    Image 2</td>
+  </tr>
+</table>
+<p>If you have changed the levels in a way (and you should NOT have, but if you did...), hit 
+&quot;Cancel&quot; and then get the levels editor back up again. We're going to use the levels editor to turn 
+the picture a light blue. We do this because the dark colored picture can obscure some of 
+the details of the black ink that we will be drawing with, and dark smudges cannot slip by as easy if they don't blend in with 
+the picture color.</p>
+<p>&nbsp;Here is how to make yourself blue.</p>
+<ol start="4">
+  <li>Click the dropdown arrow next to <b>Channel</b> and 
+  click <b>Blue</b>...<br>
+    <img border="0" src="03/308.jpg"><br>
+  Notice when you select Blue that the histogram 
+  changes</li>
+  <li>We want to make it so that blue is all light, so grab the <b>dark output 
+  box</b> (this is the one under the gradient bar all the way to the left under the black section)...<br>
+    <img border="0" src="03/309.jpg"><br>
+  and drag it as far to the right as it will go - when you drag it all the way to 
+  the right, it should disappear behind the white box...<br>
+    <img border="0" src="03/310.jpg"><br>
+  This is ok - we want this at this point - and you should now be blue...<br>
+    <img border="0" src="03/316.jpg" width="150" height="185"></li>
+</ol>
+<p>You should now be blue! You can now fine-tune your image to get a shade of 
+blue you are comfortable working with.</p>
+<ol start="6">
+  <li>Change the <b>Channel</b> from <b>Blue</b> to <b>Green</b>...<b><br>
+  </b>
+    <img border="0" src="03/312.jpg"><br>
+  Notice that the dark output box we were working 
+  with a moment ago has now returned to the left side (bottom arrow above) - this is because we are 
+  no longer working with blue but are now working 
+  with green</li>
+  <li>Grab the <b>dark output box</b> (the same one we dragged around when 
+  working with blue) and drag it to the right until you have a nice shade of 
+  blue that allows you to see all the image details...<br>
+<img src="03/311.jpg" border="1" width="247" height="286"><br>
+  You can drag to any amount you like, but <b>90</b> is usually 
+  an amount that works great...<br>
+<img src="03/317.jpg" border="1"></li>
+  <li>Click <b>OK</b></li>
+</ol>
+<p align="center"><font size="5"><b><i>YOU</i></b></font><i><b><font size="5"> SHOULD BE  </font>
+<font color="#0000FF" size="5">BLUE</font><font size="5"> AND <u>NOT</u> </font>
+<font color="#800080" size="5">PURPLE</font><font size="5"> OR </font>
+<br><font color="#008080" size="5">GREEN</font><font size="5"> OR </font>
+<font color="#00FFFF" size="5">LIGHT BLUE</font><font size="5"> or any other color!</font></b></i></p>
+<p>It should look something like the image above - if your image is purplish or 
+greenish or light bluish then close your image without saving and reopen it and 
+start over and be sure you are working with the correct channel when you make your 
+changes.</p>
+<p>I should probably point out that there are other ways, even easier ways, to 
+turn the picture blue, but it will help a lot if you familiarize yourself with 
+the Levels editor, which can be very useful at completing other tasks, such as 
+brightening a final picture that is too dark. Keep in mind that your shade of 
+blue does not have to match mine (in fact, when doing this on your own at some 
+future time you can actually make the image any color other than black that you 
+like), you just want the image a color other than black so that you can see the 
+lines when you begin drawing them in.</p>
+<p>Let's save our image at this point so we can begin creating the lines in the 
+next step.</p>
+<ol start="9">
+  <li>Click <b>File</b> then click <b>Save as PSD</b></li>
+	<li>Name the file <b>Face03</b> (Face because it is the face file, and 03 
+	because this is Step 03)</li>
+</ol>
+<center>
+<hr>
+     <p align="center"><font size="2">
+    <a href="step01.html" title="Some Basic Facts About Photoshop">01</a> | 
+    <a href="step02.html" title="Getting Started on Your Face">02</a> | 03 |
+    <a href="step04.html" title="Setting Up the Layers">04</a> | 
+    <a href="step05.html" title="Shape Inking">05</a> |
+    <a href="step06.html" title="Freehand Inking">06</a> | 
+    <a href="step07.html" title="Adding Color">07</a> |
+    <a href="step08.html" title="Completing Your Face">08</a> | 
+    <a href="step09.html" title="Getting Started on the Space Scene">09</a> |
+    <a href="step10.html" title="Star Field">10</a> | 
+    <a href="step11.html" title="Nebula">11</a> |
+    <a href="step12.html" title="Sun">12</a> | 
+    <a href="step13.html" title="Planet One">13</a> |
+    <a href="step14.html" title="Planet Two">14</a> | 
+    <a href="step15.html" title="Comet">15</a> |
+    <a href="step16.html" title="Asteroids">16</a> | 
+    <a href="step17.html" title="Lens Flare">17</a> | 
+    <a href="step18.html" title="Preparing the Spaceship">18</a> | 
+    <a href="step19.html" title="You're the Captain">19</a> | 
+    <a href="step20.html" title="Flying Through Space">20</a></font></center>
+
+</font>
+</body>
+
+</html>
