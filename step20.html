@@ -167,7 +167,7 @@ this method to make an animation in Photopea by placing each individual image on
 its own layer. When we export our image as a GIF, PNG, or WEBP file (all file 
 types that support animation), Photopea detects all layers starting with&nbsp;<b>_a_</b>.
 <font color="#FF0000">By using _a_ in the name of the file, Photopea knows we 
-want our image to animated</font>. Every layer, or even a layer folder, whose 
+want our image to animated</font> (the a is short for animated). Every layer, or even a layer folder, whose 
 name starts with _a_ will be a frame in the animation. The first layer named 
 with this pattern is shown in the first frame (others starting with&nbsp;_a_&nbsp;are 
 hidden on that frame), the second layer is shown in the second frame, and so on. 
@@ -221,9 +221,10 @@ spaceship across the screen.</p>
   right and naming each new layer you create in sequence (<b>_a_3</b>, <b>_a_4</b>, <b>
 	_a_5</b>, <b>_a_6</b>, 
   etc.) until your spaceship is no longer visible off the right side of your 
-  image</li>
+  image (on the last layer you should see the red line down the right side of 
+	your image)</li>
 </ol>
-<p>Try to move your spaceship by the same amount each time so that the animation 
+<p>Try to move your spaceship by the same distance each time so that the animation 
 runs smoothly. If you move it too far on any of the new layers then your ship will 
   appear to leap great distances as it flies through space. When you reach the other side 
   of your space scene you should have multiple 
@@ -239,13 +240,14 @@ side.</p>
 <p>Let's take a quick look at our animation to make sure everything moves like 
 we want.</p>
 <ol start="22">
-  <li>Click <b>File</b> and point at <b>Export</b> as and then click <b>PNG</b>...<br>
+  <li>Click <b>File</b> and point at <b>Export</b> as and then click <b>GIF</b>...<br>
   <img border="0" src="20/2009.jpg"><br>
 	This will open the <b>Save for web</b> window...<br>
   <img border="0" src="20/2004.jpg" width="605" height="478"></li>
 </ol>
 <p>If you allow the Save for web window to sit for just a second, you should see 
-your ship fly by. Because our image is so large, we can't see the entire scene. 
+your ship fly by. Because our image is so large, we can't see the entire scene 
+in the window at 100% zoom. 
 This is easy to fix.</p>
 <ol start="23">
   <li>Point at the space scene and roll the mouse wheel down until the zoom 
@@ -265,7 +267,7 @@ appearance of our animated image.</p>
 
   <img border="0" src="20/2011.jpg"></td>
 		<td>Format - Defines the type of image we are creating<p>Width and 
-		Height - Allows us to change the size of the image</p>
+		Height - Allows us to change the size that the image is saved at</p>
 		<p>Quality - Lowering the percentage will not only create a lower 
 		quality image, but will also decrease the file size of the image (this 
 		is helpful if file size is more important than image quality)</p>
@@ -277,7 +279,7 @@ appearance of our animated image.</p>
 		to 0 causes the animation to repeat continuously)</p>
 		<p>reverse frames - Will flip our frames so that the animation runs in 
 		the opposite directions (in other words, your spaceship will fly 
-		backwards if you select it)</td>
+		backwards if you select this option)</td>
 	</tr>
 </table>
 <p>We are going to leave most of the setting above alone, but we do need to make 
@@ -287,8 +289,14 @@ side). With Speed set to 100%, this is the animation we get...</p>
 <p align="center">
 
   <img border="0" src="20/2012.gif" width="500" height="500"></p>
-<p align="left">If we get our spaceship to move a little faster, we can smooth 
-out the animation. By default, <font color="#FF0000">each frame will be shown for 50 ms before being replaced by the 
+<p align="left">
+
+  It's not bad, but the slight pauses between the display of each frame (meaning 
+	each layer) is noticable. If we get our spaceship to move a little faster, we can smooth 
+out the animation.</p>
+<p align="left">
+
+  By default, <font color="#FF0000">each frame will be shown for 50 ms before being replaced by the 
 next frame</font>. In fact, Photopea allows you to specify the exact amount of 
 time each layer will be visible in the animation. To do this, simply place a 
 comma after the layer name and then indicate the number of milliseconds 
@@ -318,10 +326,10 @@ Photopea set the same value for all frames.</p>
 	you like...<br>
 
   <img border="0" src="20/2017.jpg" width="257" height="312"><br>
-	I'm going to set my value to 140 - to change the value you can either click 
+	I'm going to set my value to 140 as shown in the image above - to change the value you can either click 
 	on the blue dot and drag it to the right, of you can type the amount in 
 	directly (if you type the amount in, you can just click on the area with the 
-	red circle in the above image to commit the number change</li>
+	red circle in the above image to commit the number change)</li>
 </ol>
 <p>Note that when you change the Speed that Photopea will pause for a second and 
 then show you the animation at the new speed, so don't freak out when things 
@@ -331,13 +339,14 @@ don't happen instantly.</p>
   <img border="0" src="20/2016.jpg" width="257" height="226"></li><li>Go to the folder 
 	where you are saving your Photopea work and name the file <b>Final</b> (Photopea will add the .GIF extension 
   automatically)</li>
-	<li>Click the <b>Save</b> button - Photopea will think for a second and then 
-  your image will be saved</li></ol>Let's have a quick look at our image to make sure everything saved correctly and 
+	<li>Click the <b>Save</b> button</li></ol>Let's have a quick look at our image to make sure everything saved correctly and 
 it works like it should.<ol start="28">
   <li>Go to the folder where you saved your animated file and 
   <b>right-click</b> on your <b>Final</b> file then point at <b>Open with</b> 
   and click the browser of your choice...<br>
-  <img border="0" src="20/2018.jpg" width="461" height="216"></li>
+  <img border="0" src="20/2018.jpg" width="461" height="216"><br>
+	If you want, you can go directly to Chrome and press Ctrl+O on the keyboard 
+	to bring up the Open window and select the Final file from there</li>
   <li>You should now be able to see your flying spaceship...<br>
   <img border="0" src="20/2021.gif"><br>
   If you are not flying through space, or if you do not have a smooth animation, 
@@ -370,8 +379,8 @@ it works like it should.<ol start="28">
 of great ideas and some additional instructions on how to do them can be found 
 on the super secret bonus <a href="step21.html">Step 21</a> page</font></b></font><font size="4" color="#006600"><b>.
 </b><br>
-Shhhhh...don't tell anyone about it.</font><p align="center"><font size="4" color="#006600">We have two more 
-    short assignments in Photopea which will teach us some additional 
+Shhhhh...don't tell anyone about it.</font><p align="center"><font size="4" color="#006600">We have 
+	a little more work to do in Photopea which will teach us some additional 
     tools - <br>
     yes, there are still some important tools we haven't used!</font><p align="center"><font size="4" color="#006600">Once you have completed your Astronaut Project work, begin the 
     next project - and have fun!!<br>
